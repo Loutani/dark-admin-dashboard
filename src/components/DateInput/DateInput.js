@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './dataInput.css'
+
 function DateInput({label, htmlFor}) {
     return (
         <div className='date-input'>
