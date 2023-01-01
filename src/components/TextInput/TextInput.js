@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './textInput.css';
+
 function TextInput({label, htmlFor, type, classname}) {
 
     return (
