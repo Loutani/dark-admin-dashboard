@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './selectInput.css'
+
 function SelectInput({label, htmlFor, data}) {
     return (
         <div className='select-input'>
