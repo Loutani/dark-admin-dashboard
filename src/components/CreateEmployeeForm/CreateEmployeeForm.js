@@ -41,7 +41,7 @@ function CreateEmployeeForm() {
             state
         }
 
-        if(firstName === '' || lastName === '' || street === '' || city === '' || zipCode === '' || birthDate === '' || startDate === '' || department === '' || state === '') {
+        if(firstName === '' || lastName === '' || street === '' || city === '' || zipCode === '' || department === '' || state === '') {
             return false;
         }
 
